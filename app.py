@@ -3,4 +3,4 @@ app = Flask(__name__, static_url_path='/static')
 
 @app.route("/")
 def index():
-    return "Hello world"
+    return app.send_static_file('index.html')
