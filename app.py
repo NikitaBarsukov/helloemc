@@ -6,5 +6,5 @@ def index():
     return app.send_static_file('index.html')
 
 @app.route("/f")
-def index():
+def philo():
     return redirect("https://drive.google.com/file/d/0B1ZVeCv9HaaJZ002WDNFM0Znd2s/view", code=302)
