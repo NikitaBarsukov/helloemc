@@ -8,4 +8,4 @@ def index():
 
 @app.route("/f")
 def philo():
-    return redirect("https://drive.google.com/file/d/0B1ZVeCv9HaaJZ002WDNFM0Znd2s/view", code=302)
+    return redirect("https://drive.google.com/open?id=1R08Pz8c_cnFBQwPsFKGJx4FkOnKkVc0-", code=302)
